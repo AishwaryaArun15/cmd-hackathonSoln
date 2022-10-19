@@ -1,0 +1,11 @@
+using System;
+
+namespace cmd_hackathon.Areas.HelpPage.ModelDescriptions
+{
+    public class ParameterAnnotation
+    {
+        public Attribute AnnotationAttribute { get; set; }
+
+        public string Documentation { get; set; }
+    }
+}
